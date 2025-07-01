@@ -20,28 +20,28 @@ CREATE TABLE public.user_logins (
 
 #### Пример выполнения
 1. Исходная таблица данных
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_postgres_table_before.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_postgres_table_before.png?raw=true)
 
 2. Целевая таблица
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_clickhouse_table_before.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_clickhouse_table_before.png?raw=true)
 
 3. Запуск consumer.py
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/consumer_started.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/consumer_started.png?raw=true)
 
 4. Запуск producer.py
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/first_run.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/first_run.png?raw=true)
 
 5. Остановка и перезапуск producer.py
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/second_run.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/second_run.png?raw=true)
 
 6. Остановка и перезапуск consumer.py
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/consumer_restart.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/consumer_restart.png?raw=true)
 
 7. Третий запуск producer.py
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/third_run.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/third_run.png?raw=true)
 
 8. Исходная таблица после выполнения п.7
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_postgres_table_after.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_postgres_table_after.png?raw=true)
 
 9. Целевая таблица после выполнения п.7
-![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_clickhouse_table_after.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_clickhouse_table_after.png?raw=true)
