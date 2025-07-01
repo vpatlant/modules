@@ -20,28 +20,28 @@ CREATE TABLE public.user_logins (
 
 #### Пример выполнения
 1. Исходная таблица данных
-![image](/images/5_2_postgres_table_before.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_postgres_table_before.png)
 
 2. Целевая таблица
-![image](/images/5_2_clickhouse_table_before.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_clickhouse_table_before.png)
 
 3. Запуск consumer.py
-![image](/images/consumer_started.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/consumer_started.png)
 
 4. Запуск producer.py
-![image](/images/first_run.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/first_run.png)
 
 5. Остановка и перезапуск producer.py
-![image](/images/second_run.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/second_run.png)
 
 6. Остановка и перезапуск consumer.py
-![image](/images/consumer_restart.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/consumer_restart.png)
 
 7. Третий запуск producer.py
-![image](/images/third_run.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/third_run.png)
 
 8. Исходная таблица после выполнения п.7
-![image](/images/5_2_postgres_table_after.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_postgres_table_after.png)
 
 9. Целевая таблица после выполнения п.7
-![image](/images/5_2_clickhouse_table_after.png)
+![image](https://github.com/vpatlant/modules/tree/main/5.2/images/5_2_clickhouse_table_after.png)
